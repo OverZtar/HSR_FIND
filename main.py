@@ -224,7 +224,7 @@ print()
 print(f"  ★ 예측된 운명의 길 : {predicted}")
 print()
 
-# KNN으로 가장 가까운 캐릭터 3명 탐색
+# KNN으로 가장 가까운 캐릭터 10명 탐색
 knn_scaler = KNNScaler()
 X_knn = knn_scaler.fit_transform(X)
 random_knn = knn_scaler.transform(random_input)
